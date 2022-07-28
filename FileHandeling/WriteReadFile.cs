@@ -14,7 +14,7 @@ namespace FileHandeling
             try
             {
                  // provide ---> \\ or @ , to path to remove errors in path.
-                FileStream fs = new FileStream(@"D:\IKS\dotnet\file.txt", FileMode.Create, FileAccess.Write);
+                FileStream fs = new FileStream(@"D:\IACSD\dotnet_VS\file.txt", FileMode.Create, FileAccess.Write);
                 StreamWriter sw = new StreamWriter(fs);
 
                 Console.WriteLine("Students details are as follow : ");

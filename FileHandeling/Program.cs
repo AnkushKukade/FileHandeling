@@ -11,8 +11,8 @@ namespace FileHandeling
         public static void Main(string[] args)
         {
             WriteReadFile wf = new WriteReadFile();
-             wf.WriteFile();
-            //  wf.ReadFile();
+            //  wf.WriteFile();
+               wf.ReadFile();
             Console.Read();
 
 
